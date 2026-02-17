@@ -1,8 +1,8 @@
-\# Titanic EDA
+# Titanic EDA
 
 
 
-\### Description
+### Description
 
 
 
@@ -16,35 +16,17 @@ L'objectif est de visualiser et comprendre les facteurs influençant la survie d
 
 
 
-\### Technologies utilisées
+### Technologies utilisées
 
 
 
-\- Python 3.13.1
+- Python 3.13.1
 
-\- Pandas
+- Pandas
 
-\- Matplotlib
+- Matplotlib
 
-\- Seaborn
-
-
-
----
-
-
-
-\### Installation \& Utilisation
-
-
-
-\- git clone https://github.com/Vincent-Decock/titanic\_eda.git
-
-\- cd titanic-eda
-
-\- pip install pandas matplotlib seaborn
-
-\- python titanic\_eda.py
+- Seaborn
 
 
 
@@ -52,15 +34,17 @@ L'objectif est de visualiser et comprendre les facteurs influençant la survie d
 
 
 
-\### Aperçu du dataset
+### Installation \& Utilisation
 
 
 
-\- 891 lignes × 12 colonnes
+- git clone https://github.com/Vincent-Decock/titanic_eda.git
 
-\- Valeurs manquantes `Age` → remplacées par la médiane
+- cd titanic-eda
 
-\- Valeurs manquantes `Embarked` → remplacées par la valeur fréquente
+- pip install pandas matplotlib seaborn
+
+- python titanic_eda.py
 
 
 
@@ -68,17 +52,33 @@ L'objectif est de visualiser et comprendre les facteurs influençant la survie d
 
 
 
-\### Insights clés
+### Aperçu du dataset
 
 
 
-\- Les passagers de 1ère classe ont le taux de survie le plus élevé (62%)
+- 891 lignes × 12 colonnes
 
-\- Les passagers de 3ème classe ont le taux de survie le plus bas (24%)
+- Valeurs manquantes `Age` → remplacées par la médiane
 
-\- La majorité des passagers ont un âge compris entre 20 et 40 ans
+- Valeurs manquantes `Embarked` → remplacées par la valeur fréquente
 
-\- Une corrélation positive existe entre le tarif payé et la survie
+
+
+---
+
+
+
+### Insights clés
+
+
+
+- Les passagers de 1ère classe ont le taux de survie le plus élevé (62%)
+
+- Les passagers de 3ème classe ont le taux de survie le plus bas (24%)
+
+- La majorité des passagers ont un âge compris entre 20 et 40 ans
+
+- Une corrélation positive existe entre le tarif payé et la survie
 
 
 
@@ -86,19 +86,11 @@ L'objectif est de visualiser et comprendre les facteurs influençant la survie d
 
 
 
-\### Visualisations
+### Visualisations
 
 
 
-!\[image alt]()
-
-
-
-
-
-
-
-!\[image alt]()
+![image alt](https://github.com/Vincent-Decock/titanic_eda/blob/f3fb3f257ea9a49470ce7a585b45f8d7d5b45f4b/images/taux_de_survie_par_classe.png)
 
 
 
@@ -106,5 +98,13 @@ L'objectif est de visualiser et comprendre les facteurs influençant la survie d
 
 
 
-!\[image alt]()
+![image alt](https://github.com/Vincent-Decock/titanic_eda/blob/f3fb3f257ea9a49470ce7a585b45f8d7d5b45f4b/images/distribution_des_ages.png)
+
+
+
+
+
+
+
+![image alt](https://github.com/Vincent-Decock/titanic_eda/blob/f3fb3f257ea9a49470ce7a585b45f8d7d5b45f4b/images/relation_age_vs_tarif.png)
 
